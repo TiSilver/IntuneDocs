@@ -127,7 +127,7 @@ These settings are added to a device configuration profile in Intune, and then a
   
   - **Maximum minutes after screen lock before password is required**<sup>1</sup>: Enter how long the device stays idle before the user must reenter their password. If the time you enter is longer than what's currently set on the device, then the device ignores the time you enter. Supported on iOS 8.0 and newer devices.
   - **Maximum minutes of inactivity until screen locks**<sup>1</sup>: Enter the maximum number of minutes of inactivity allowed on the device until the screen locks. If the time you enter is longer than what's currently set on the device, then the device ignores the time you enter. When set to **immediately**, the screen locks based on the device's minimum time. On iPhone, it's 30 seconds. On iPad, it's two minutes.
-  - **Password expiration (days)**: Enter the number of days before the device password must be changed.
+  - **Password expiration (days)**: Enter the number of days before the device password must be changed. This timer is based on the last time the passcode was changed on the device. 
   - **Prevent reuse of previous passwords**: Enter the number of new passwords that must be used until an old one can be reused.
   - **Touch ID and Face ID unlock**: Choose **Block** to prevent using a fingerprint or face to unlock the device. **Not configured** allows the user to unlock the device using these methods.
 
